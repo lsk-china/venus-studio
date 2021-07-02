@@ -1,0 +1,43 @@
+@import "common";
+
+.header{
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background: grey;
+  height: 50px;
+  width: 100%;
+}
+.headerLeft, .headerRight{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerLeft{
+  float: left;
+  margin-left: 10px
+}
+.headerRight{
+  float: right;
+  margin-right: 10px
+}
+.link{
+  color: black;
+  margin-right: 5px;
+}
+.toIndex{
+  margin-left: 5px;
+  color: black;
+  text-decoration: none;
+}
+.mainContainer{
+  overflow-y: scroll;
+  background: rgb(230,230,230);
+}
+.background{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
