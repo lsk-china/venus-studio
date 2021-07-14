@@ -4,7 +4,7 @@
 
 <script>
   export default {
-    name: 'work'
+    name: 'header'
   }
 </script>
 
